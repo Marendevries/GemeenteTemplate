@@ -133,6 +133,7 @@ h2{
   margin-left: 40%;
   margin-top: 22%;
   border-radius: 5%;
+  text-align: center;
 
 }
 
@@ -230,12 +231,22 @@ button:hover{
   /* footer ----------------------------------------------------------------------------------------------------------*/
 
   .footer{
-    background-color: #333;
-    margin-left: 0;
-   
+  /* position: fixed; */
+  margin-left: 0;
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #70D4F3;
+  color: white;
+  text-align: center;
+  padding:10px;
     
 
   }
+
+  /* #page-container{
+    position: relative;
+    min-height: 100vh;
+  } */
 
 
 
