@@ -101,7 +101,7 @@
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
-  position: absolute;
+  position:absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -111,7 +111,7 @@
 /* extra ------------------------------------------------------------------------------------------------------------*/
 
 h2{
-    padding-left: 16%;
+    padding-left: auto;
     margin-top: 3%;
 }
 
@@ -136,6 +136,7 @@ h2{
   text-align: center;
 
 }
+
 
 .buttonMeerNieuws{
   margin-top: 3%;
@@ -208,7 +209,11 @@ button:hover{
     
   }
 
-  .card:hover, .nieuwscard:hover{
+  .nieuwsCardsContainer{
+    margin-top: 0.001em;
+  }
+
+    .card:hover, .nieuwscard:hover{
       box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 5)  }
   
   /* Responsive columns - one column layout (vertical) on small screens */
@@ -243,14 +248,32 @@ button:hover{
 
   }
 
-  /* #page-container{
-    position: relative;
-    min-height: 100vh;
-  } */
+ .img .svg{
+size: auto;
+  }
 
+  .picturenews{
+border: solid black 1px;
+  }
 
+  .card{
+    max-height: 10em;
+    text-align: center;
+  }
 
+  .Nieuws{
+    text-align: center ;
+    margin-top: 1em;
 
+  }
+
+  .nieuwscard{
+    text-align: left;
+  }
+
+#page-container{
+  margin-top: 3%;
+}
 
 
 
