@@ -13,11 +13,21 @@
 
 <body>
 
+<div id="header">
+  <div class="inner"><button type="submit" class="msgBtn"  >Lees voor
+    <img src="Images/play.svg" alt="Icoon afspelen" style="width: 15px;" id="playIcon">
+  </button></div>
+  <div class="inner"><button type="submit" class="msgBtn2" >Taal</button></div>
+  <div class="inner"><button class="msgBtnBack">- A +</button></div>
+</div>
+
+
+
     <!-- Navigatiebar -->
     
-<div class="navbar" tabindex="-2">
-
-  <div class="dropdown" tabindex="1">
+<div class="navbar" tabindex="0">
+  
+  <div class="dropdown" tabindex="0">
     <button class="dropbtn" aria-label="Home" role="button" >Home
         </button>
    <!-- <div class="dropdown-content">
@@ -28,24 +38,24 @@
   </div>
   
  
-  <div role="button" tabindex="1" class="dropdown" aria-label="Onderwerpen">
+  <div role="button" tabindex="0" class="dropdown" aria-label="Onderwerpen">
     <button aria-label="onderwerp" class="dropbtn" >Onderwerpen
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#index.html" aria-label="Afval" tabindex="1">Afval</a>
-      <a href="#" aria-label="Burgerzaken" tabindex="2">Burgerzaken</a>
-      <a href="#" aria-label="Gemeente bestuur" tabindex="3" >Gemeente bestuur</a>
-      <a href="#" aria-label="Ondernemers" tabindex="4">Ondernemers</a>
-      <a href="#" aria-label="Overlast/Meldingen" tabindex="5">Overlast/Meldingen</a>
-      <a href="#" aria-label="Vrije tijd" tabindex="6">Vrije tijd</a>
-      <a href="#" aria-label="Werk en inkomen" tabindex="7">Werk en inkomen</a>
-      <a href="#" aria-label="Zorg" tabindex="8">Zorg</a>
+      <a href="#index.html" aria-label="Afval" tabindex="0">Afval</a>
+      <a href="#" aria-label="Burgerzaken" tabindex="0">Burgerzaken</a>
+      <a href="#" aria-label="Gemeente bestuur" tabindex="0" >Gemeente bestuur</a>
+      <a href="#" aria-label="Ondernemers" tabindex="0">Ondernemers</a>
+      <a href="#" aria-label="Overlast/Meldingen" tabindex="0">Overlast/Meldingen</a>
+      <a href="#" aria-label="Vrije tijd" tabindex="0">Vrije tijd</a>
+      <a href="#" aria-label="Werk en inkomen" tabindex="0">Werk en inkomen</a>
+      <a href="#" aria-label="Zorg" tabindex="0">Zorg</a>
     </div>
   </div>
 
 
-  <div class="dropdown" aria-label="Nieuw" role="button" tabindex="2">
+  <div class="dropdown" aria-label="Nieuw" role="button" tabindex="0">
     <button class="dropbtn">Nieuws
       
     </button>
@@ -56,7 +66,7 @@
     </div> -->
   </div>
   <div class="dropdown">
-    <button class="dropbtn" aria-label="Contact" role="button" tabindex="3">Contact
+    <button class="dropbtn" aria-label="Contact" role="button" tabindex="0">Contact
      
     </button>
     <!--<div class="dropdown-content">
@@ -70,13 +80,13 @@
 
 <!--Hero image-->
 <div class="hero-image" alt="Een foto van de banner van de gemeente">
-    <div class="hero-text">
-      <h1>Gemeente Leeuwarden</h1>
-      <p>Leeuwarden is een gemeente in het noorden van de Nederlandse provincie Friesland. 
+    <div class="hero-text" >
+      <h1 tabindex="0">Gemeente Leeuwarden</h1>
+      <p tabindex="0">Leeuwarden is een gemeente in het noorden van de Nederlandse provincie Friesland. 
         De gemeente heeft in totaal 124.639 inwoners.</p></div>
      
           <div>
-            <input class="zoekButton" aria-label="zoekbutton" placeholder="Waar ben je naar op zoek?">
+            <input class="zoekButton" aria-label="zoekbutton" placeholder="Waar ben je naar op zoek?" tabindex="0">
              
           </input>
            
@@ -86,26 +96,26 @@
 
 
   <!-- Cards -->
-  <div id="container" class="cardContainer" tabindex="4">
+  <div id="container" class="cardContainer">
   <div class="row">
     <div class="column">
-      <div class="card"><h2>Openingstijden</h2>
+      <div class="card" tabindex="0"><h2>Openingstijden</h2>
        <img src="Images/openinghours.svg" alt="Icoon Openingstijden" style="width: 50px;"> 
       </div>
       
     </div>
     <div class="column">
-      <div class="card"><h2>Burgerzaken</h2>
+      <div class="card" tabindex="0"><h2>Burgerzaken</h2>
        <img src="Images/burgerzaken.svg" alt="Icoon Burgerzaken" style="width: 50px;">
       </div>
     </div>
     <div class="column">
-      <div class="card"><h2>Verhuizen</h2>
+      <div class="card" tabindex="0"><h2>Verhuizen</h2>
         <img src="Images/verhuizen.svg" alt="Icoon Verhuizen" style="width: 50px;">
       </div>
     </div>
     <div class="column">
-      <div class="card"><h2>Zorg</h2>
+      <div class="card" tabindex="0"><h2>Zorg</h2>
         <img src="Images/zorg.svg" alt="Icoon Zorg" style="width: 50px;">
       </div>
     </div>
@@ -113,21 +123,21 @@
 
   <div class="row">
     <div class="column">
-      <div class="card"><h2>Gemeente bestuur</h2>
+      <div class="card" tabindex="0"><h2>Gemeente bestuur</h2>
         <img src="Images/bestuur.svg" alt="Icoon gemeente bestuur" style="width: 50px;">
       </div>
     </div>
-    <div class="column">
+    <div class="column" tabindex="0">
       <div class="card"><h2>Melding maken</h2>
         <img src="Images/meldingen.svg" alt="Icoon melding maken" style="width: 50px;">
       </div>
     </div>
-    <div class="column">
+    <div class="column" tabindex="0">
       <div class="card"><h2>Werk en inkomen</h2>
         <img src="Images/werkinkomen.svg" alt="Icoon voor werk en inkomen" style="width: 50px;">
       </div>
     </div>
-    <div class="column">
+    <div class="column" tabindex="0">
       <div class="card"><h2>Afval</h2>
         <img src="Images/afval.svg" alt="Icoon voor afval" style="width: 50px;">
       </div>
@@ -136,17 +146,17 @@
 
   <div class="row">
     <div class="column">
-      <div class="card"><h2>Ondernemers</h2>>
+      <div class="card" tabindex="0"><h2>Ondernemers</h2>>
         <img src="Images/ondermers.svg" alt="Icoon voor ondernemers" style="width: 50px;">
       </div>
     </div>
     <div class="column">
-      <div class="card"><h2>Vrije tijd</h2>
+      <div class="card" tabindex="0"><h2>Vrije tijd</h2>
         <img src="Images/vrijetijd.svg" alt="Icoon voor vrije tijd" style="width: 50px;">
       </div>
     </div>
     <div class="column">
-      <div class="card"><h2>Contact</h2>
+      <div class="card" tabindex="0"><h2>Contact</h2>
         <img src="Images/contact.svg" alt="Icoon voor contact" style="width: 50px;">
       </div>
     </div>
@@ -156,7 +166,7 @@
 
 <!--Button voor alle onderwerpen-->
 <div class="Button-Onderwerpen">
-<button class="buttonOnderwerpen">Alle onderwerpen</button>
+<button class="buttonOnderwerpen" tabindex="0">Alle onderwerpen</button>
 </div>
 
 <div>
@@ -165,7 +175,7 @@
 </div>
 
 <!--header voor Nieuws-->
-<div class="Nieuws">
+<div class="Nieuws" tabindex="0">
 <h2>Nieuws</h2>
 </div>
 
@@ -173,37 +183,39 @@
 <div class="nieuwsCardsContainer">
   <div class="row">
     <div class="column">
-      <div class="nieuwscard"><h3>Hulp aan vluchtelingen uit Oekraine</h3>
+      <div class="nieuwscard" tabindex="0"><h3>Hulp aan vluchtelingen uit Oekraine</h3>
         <div class="picturenews">foto</div>
       </div>
     </div>
     <div class="column">
-      <div class="nieuwscard"><h3>Uitslag van de verkiezingen</h3>
+      <div class="nieuwscard" tabindex="0"><h3>Uitslag van de verkiezingen</h3>
         <div class="picturenews">foto</div>
       </div>
     </div>
     <div class="column">
-      <div class="nieuwscard"><h3>Leeuwarden steunt pleidooi voor betere afweging coronamaatregelen</h3>
+      <div class="nieuwscard" tabindex="0"><h3>Leeuwarden steunt pleidooi voor betere afweging coronamaatregelen</h3>
         <div class="picturenews">foto</div>
       </div>
     </div>
     </div>
+   
     
 
     <!--Header voor button "meer nieuws"-->
-    <div class="button-MeerNieuws">
-      <button class="buttonMeerNieuws">Meer nieuws</button>
-      </div>
-</div>
+    
+      <button class="buttonMeerNieuws" tabindex="0">Meer nieuws</button>
+      
+      
 
-<footer class="footer">
+</div>
+<footer class="footer" style="border-top: 1px solid black">
  
   <div id="page-container">
     <ul>
-      <a>Contact</a>
-      <a>Contact</a>
-      <a>Contact</a>
-      <a>Contact</a>
+      <a tabindex="0">Contact</a>
+      <a tabindex="0">Contact</a>
+      <a tabindex="0">Contact</a>
+      <a tabindex="0">Contact</a>
     </ul>
   </div>
  </footer>

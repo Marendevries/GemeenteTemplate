@@ -1,3 +1,28 @@
+ /* styleGuide -------------------------------------------------------------------------------------------------------------*/
+
+ :root {
+  /* verander hier de kleuren */
+  --primaryColor: #fc0000;
+  --secundaryColor: #000000;
+  --focusColor: #ffff77
+
+  /* verander hier het lettertype */
+  --fontPrimary: serif;
+  --fontSecundary: sans-serif;
+}
+
+#header
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+    
+}
+  
+  
   /* Navbar container */
 .navbar {
     overflow: hidden;
@@ -100,12 +125,13 @@
 
 /* Place text in the middle of the image */
 .hero-text {
-  text-align: center;
+  text-align: left;
   position:absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  background-color: #333;
 }
 
 /* extra ------------------------------------------------------------------------------------------------------------*/
@@ -140,6 +166,7 @@ h2{
 
 .buttonMeerNieuws{
   margin-top: 3%;
+  margin-bottom: 3%;
   border-radius: 5%;
   min-width: 20em;
   min-height: 3em;
@@ -150,6 +177,7 @@ h2{
 button:hover{
   box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 5)
 }
+
 
 
 /* cards -------------------------------------------------------------------------------------------------------------*/
@@ -262,9 +290,14 @@ border: solid black 1px;
   }
 
   .Nieuws{
-    text-align: center ;
+    margin-left: 25%;
     margin-top: 1em;
+    
 
+  }
+
+  .div.Nieuws{
+    background-color: #70D4F3;
   }
 
   .nieuwscard{
@@ -285,18 +318,7 @@ border: solid black 1px;
 
 
 
-  /* styleGuide -------------------------------------------------------------------------------------------------------------*/
-
-  :root {
-    /* verander hier de kleuren */
-    --primaryColor: #fc0000;
-    --secundaryColor: #000000;
-    --focusColor: #ffff77
-  
-    /* verander hier het lettertype */
-    --fontPrimary: serif;
-    --fontSecundary: sans-serif;
-  }
+ 
 
 
   
